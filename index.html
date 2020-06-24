@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<head> 
+    <style>
+        
+        html {
+            font-size: 10px;
+            color: black;
+        }
+        h1 {
+            font-size: 17px;
+            display: grid;
+            grid-template-columns: 65px 65px auto 65px 65px;
+        }
+        #gmail { grid-column: 4; }
+        main {
+            text-align: center;
+            padding-top: 100px;
+        }
+        #logo {
+            text-align: center;
+            margin-top: 13em;
+        }
+       #search-bar {
+           width: 500px;
+           height: 2em;
+           border-radius: 20px;
+            outline-color: grey;
+            border-color: lightgray;
+            margin-top: 2em;
+            }
+       #search-bar:focus {
+           outline-color: grey;
+            border-radius: 20px;
+
+            
+       }
+       
+       #google-search {
+           border: 0px;
+           border-radius: 8px;
+           margin-top: 1.5em;
+           margin-right: 1em;
+           padding: 1.5em;
+           color: rgb(85, 84, 84);
+           width: 150px;
+           
+       }
+
+       #feeling-lucky {
+            border: 0px;
+            border-radius: 8px;
+           margin-top: 1.5em;
+           margin-left: 1em;
+           padding: 1.5em;
+           color: rgb(85, 84, 84);
+       }
+
+       footer {
+           position: fixed;
+            font-size: 17px;
+            display: grid;
+            grid-template-columns: 90px 75px 130px auto 75px 75px 75px;
+            bottom: 0;
+            top: auto;
+       }
+
+       #ad {
+           grid-column: 1;
+           top: auto;
+       }
+
+       #bus {
+           grid-column: 2;
+       }
+
+       #how {
+           grid-column: 3;
+       }
+
+       #privacy {
+            grid-column: 5;
+            padding-left: 1910%;
+            
+        }
+
+       #terms {
+           grid-column: 6;
+           padding-left: 1900%;
+       }
+
+       #settings{
+           grid-column: 7;
+           padding-left: 1870%;
+       }
+    </style>
+
+    </head>
+<body>
+<h1 id="about-store">
+    <div id="about"><a href="." target="_blank">About</a></div>
+    <div id="store"><a  href="." target="_blank">Store</a></div>
+    <div id="gmail"><a href="." target="_blank">Gmail</a></div>
+    <div id="images"><a href="." target=" _blank">Images</a></div>
+</h1>
+<main>
+    <form>
+    
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
+    <br><label for="search-bar"></label>
+    <input type="text" class="search-bar" id="search-bar" name="search-bar" required>
+</br>  
+    <input type="submit" id="google-search" name="google-search" value="Google Search">
+    <input type="submit" id="feeling-lucky" name="feeling-lucky" value="I'm Feeling Lucky">
+        
+    
+    </form>
+</main>
+<footer id="ad-bus-how">
+        <div id="ad"><a href="." target="_blank">Advertising</a></div>
+        <div id="bus"><a href="." target="_blank">Business</a></div>
+        <div id=how><a href="." target="_blank">How Search works</a></div>
+        <div id="privacy"><a href="." target="_blank">Privacy</a></div>
+        <div id="terms"><a href="." target="_blank">Terms</a></div>
+        <div id="settings"><a href="." target="_blank">Settings</a></div>
+</footer>
+</body>
+</html>
